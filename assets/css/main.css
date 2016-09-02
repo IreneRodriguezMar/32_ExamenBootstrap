@@ -1,0 +1,47 @@
+.gray{
+	background-color: #EEEEEE;
+}
+.imgback{
+	background-image: url(../assets/images/slider1.jpg);
+}
+/*imagenes que cambian*/
+.contenedor{
+	display: flex;
+	min-height: 100vh;
+}
+.slider{
+	width: 100%;
+	height:500px;	
+	margin: auto;
+	position: relative;
+	list-style: none;
+	padding: 0;
+	display: flex;
+
+	justify-content: center;
+	align-items: flex-end;
+}
+.slider img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+
+}
+.slider input[type="radio"]{
+	position: relative;
+	z-index: 50;
+	margin: 0;
+}
+.slider input[type="radio"]:checked ~ img{
+	opacity: 1;
+}
+.slider input[type="radio"] + label{
+	position: relative;
+	z-index: 50;
+	margin: 10px;
+} 
+
+/*termina imagenes 	que cambian*/

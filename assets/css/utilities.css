@@ -1,0 +1,23 @@
+	/*paddings*/
+.pt-2{
+	padding-top: 2%;
+}
+.pb-2{
+	padding-bottom: 2%;
+}
+.pt-5{
+	padding-top: 5%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+	/*margins*/
+.mb-5{
+	margin-bottom: 5%;
+}
+.mt-5{
+	margin-top: 5%; 
+}
+.pd-2{
+	padding: 2%;
+}
